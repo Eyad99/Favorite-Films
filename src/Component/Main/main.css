@@ -1,0 +1,131 @@
+.contentt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.films{
+    /* background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.8),
+        rgba(255, 255, 255, 0.3)
+      ); */
+      background: linear-gradient(
+        to right bottom,
+        rgba(0,0,0,0.1),
+        rgba(221, 221, 218, 0.3)
+      );
+      border-radius: 1rem;
+
+      z-index: 2;
+      width: 70%;
+      /* background: linear-gradient(to right top, , #6cdbeb); */
+
+}
+.dashboard-name{
+    flex: 1;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: linear-gradient(
+      to right bottom,
+      rgba(0,0,0,.3),
+      rgba(255, 255, 255, 0.3)
+    );
+
+}
+.film{
+    flex: 2;
+}
+.link{
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+ h2{ 
+  font-size: 20px;
+  color: #658ec6;
+  opacity: 0.8;
+}
+.user{
+  text-align: center;
+  padding:3rem 0rem 0rem 0rem
+}
+.user h3{
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.user p{
+  font-weight: 500;
+  color: #426696;
+
+}
+.image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(0,0,0,.1),
+      rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 10%;
+  
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+.film{
+  margin: 5rem;
+}
+.fav-film{
+  margin: 20px 0px 20px 0px;
+}
+.film .fav-film h4{
+  color: #426696;
+  font-weight: 600;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+.film .top-film input {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border: none;
+  width: 50%;
+  padding: 0.2rem;
+  border-radius: 2rem;
+  outline: none;
+
+}
+.card{
+  background: linear-gradient(
+    to right bottom,
+    rgba(0,0,0,.3),
+    rgba(255, 255, 255, 0.3)
+  ) !important;
+  flex-direction: unset !important;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 3px 3px rgba(0 , 0 , 0 , 0.1);
+  margin-bottom: 20px;
+
+}
+.image-film{
+  border-radius: 10%;
+  width: 120px;
+  height: 120px;
+}

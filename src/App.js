@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from 'react';
+import axios from 'axios';
+import Navbar from './Component/Navbar';
+import Main from './Component/Main/main';
+import Characters from './Component/Character/character';
+import Questions from './Component/Question/question';
+import ContactUs from './Component/ContactUs/contactus';
+import { Route,BrowserRouter,Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component{
+
+  state ={
+    user : [],
+    episodes : [],
+    film : '',
+
+  }
+
+  componentDidMount(){
+    const bb_api = ()=>{
+      axios.get("https://breakingbadapi.com/api/characters").then(res=>{
+        this.setState({
+          user : res.data,
+        })        
+      })
+    }
+    const bbs_api=()=>{
+      axios.get("https://breakingbadapi.com/api/episodes").then(res=>{
+        this.setState({
+          episodes : res.data,
+        })
+      })
+    }
+    bb_api();
+    bbs_api();
+
+  }
+   
+  render(){
+    return(
+      <div className="container-fluid">
+        <BrowserRouter>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" render={()=><Main esisode={this.state.episodes} />}/>
+          <Route  path="/characters" render={()=> <Characters user={this.state.user} />}  />
+          <Route  path="/questions" component={Questions} />
+          <Route  path="/contactus" component={ContactUs} />
+        </Switch>
+        
+        </BrowserRouter> 
+      </div>
+    )
+  }
 }
-
 export default App;

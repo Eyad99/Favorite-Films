@@ -1,0 +1,24 @@
+.navbar {
+    padding: 20px ;
+}
+.logo{
+    padding: 15px;
+}
+.nav_n{
+
+}
+.nav_n ul{
+    list-style: none;
+}
+.nav_n ul li {
+    display: inline-block;
+    padding: 15px;
+}
+.nav_n ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.nav_n ul li a:hover{
+    padding: 3px;
+    border-bottom: 2px solid tan;
+}
