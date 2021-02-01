@@ -9,13 +9,13 @@
         rgba(255,255,255,0.8),
         rgba(255, 255, 255, 0.3)
       ); */
-      background: linear-gradient(
+      /* background: linear-gradient(
         to right bottom,
         rgba(0,0,0,0.1),
         rgba(221, 221, 218, 0.3)
-      );
+      ); */
+      background-color: rgba(211 , 224 , 234 ,.5);
       border-radius: 1rem;
-
       z-index: 2;
       width: 70%;
       /* background: linear-gradient(to right top, , #6cdbeb); */
@@ -28,12 +28,12 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background: linear-gradient(
+    /* background: linear-gradient(
       to right bottom,
       rgba(0,0,0,.3),
       rgba(255, 255, 255, 0.3)
-    );
-
+    ); */
+    background-color: #d3e0ea;
 }
 .film{
     flex: 2;
@@ -46,7 +46,8 @@
 }
  h2{ 
   font-size: 20px;
-  color: #658ec6;
+  /* color: #658ec6; */
+  color: #1687a7;
   opacity: 0.8;
 }
 .user{
@@ -54,14 +55,15 @@
   padding:3rem 0rem 0rem 0rem
 }
 .user h3{
-  color: #426696;
+  /* color: #426696; */
+  color: #1687a7;
   font-weight: 600;
   opacity: 0.8;
 }
 .user p{
   font-weight: 500;
-  color: #426696;
-
+  /* color: #426696; */
+  color: #1687a7;
 }
 .image {
   border-radius: 50%;
@@ -71,18 +73,21 @@
 .circle1,
 .circle2 {
   background: white;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right bottom,
     rgba(0,0,0,.1),
       rgba(255, 255, 255, 0.3)
-  );
-  height: 20rem;
+  );*/
+  background-color: #276678;
+  height: 20rem; 
   width: 20rem;
   position: absolute;
   border-radius: 50%;
+  filter: blur(3px);
+
 }
 .circle1 {
-  top: 5%;
+  top: 7%;
   right: 10%;
   
 }
@@ -97,7 +102,8 @@
   margin: 20px 0px 20px 0px;
 }
 .film .fav-film h4{
-  color: #426696;
+  /* color: #426696; */
+  color: #1687a7;
   font-weight: 600;
   font-size: 2rem;
   opacity: 0.8;
@@ -112,20 +118,22 @@
 
 }
 .card{
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right bottom,
     rgba(0,0,0,.3),
     rgba(255, 255, 255, 0.3)
-  ) !important;
-  flex-direction: unset !important;
+  ) !important;*/
+  background-color: rgba(211 , 224 , 234 ,.7);
+  flex-direction: unset !important; 
   justify-content: space-between;
   padding: 20px;
-  box-shadow: 3px 3px rgba(0 , 0 , 0 , 0.1);
   margin-bottom: 20px;
+  filter: drop-shadow(8px 8px 10px #D3E0EA);
 
+  /* filter: drop-shadow(5px 5px 5px #276678); */
 }
 .image-film{
-  border-radius: 10%;
+  border-radius: 3%;
   width: 120px;
   height: 120px;
 }

@@ -12,8 +12,8 @@ const Navbar = ()=>{
     </button>
         <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                    <Link className="nav-link" to="/">Fav Film <span className="sr-only">(current)</span></Link>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/Favorite-Films">Fav Film <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/characters">Character</Link>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState,useEffect} from 'react';
 import './main.css';
 import twitch from './images/twitch.png';
 import steam from './images/steam.png';
@@ -6,11 +6,52 @@ import upcoming from './images/upcoming.png';
 import library from './images/library.png';
 import me from './images/eyad.jpg';
 import TWD from './images/twd.png';
-
+import dd from '../../data.json'
+import { get } from 'jquery';
+// import BB from './images/bb.png';
+// import PB from './images/pb.png';
 
 
 const Main =()=>{
+    const [data]=useState([
+        {
+            "film_id" : 1,
+            "name" : "Breaking Bad",
+            "producing_company" : "AMC",
+            "percentage" : "90%",
+            "img" : "TWD"
+        },
+        {
+            "film_id" : 2,
+            "name" : "The walking Dead",
+            "producing_company" : "AMC",
+            "percentage" : "90%",
+            "img" : "the-walking-dead"
+        },
+        {
+            "film_id" : 3,
+            "name" : "Prison Break",
+            "producing_company" : "AMC",
+            "percentage" : "80%",
+            "img" : "prison-break"
+        }
+    
+    ]);
+  
 
+     const all = data.map(res=>{
+        return(
+            <div className="card" key={res.film_id}>
+            <img src={TWD} className="image-film" alt="film img" />
+                <div className="info">
+                    <h2>{res.name}</h2>
+                    <p>{res.producing_company}</p>
+                    <div className="progress"></div>
+                </div>
+            <h2 className="percentage">{res.percentage}</h2>
+        </div>
+        )
+     })
     return(
     <div className="contentt">
        <div className="row films">
@@ -48,35 +89,7 @@ const Main =()=>{
                     <input type="text" />
                 </div>
                 <div className="fav-film">
-                    <div className="card">
-                        <img src={TWD} className="image-film" alt="film img" />
-                            <div className="info">
-                                <h2>Thw Walking Dead</h2>
-                                <p>AMC</p>
-                                <div className="progress"></div>
-                            </div>
-                        <h2 className="percentage">60%</h2>
-                    </div>
-                    
-                    <div className="card">
-                        <img src={TWD} className="image-film" alt="film img" />
-                            <div className="info">
-                                <h2>Breajing Bad</h2>
-                                <p>AMC</p>
-                                <div className="progress"></div>
-                            </div>
-                        <h2 className="percentage">60%</h2>
-                    </div>
-
-                    <div className="card">
-                        <img src={TWD} className="image-film" alt="film img" />
-                            <div className="info">
-                                <h2>Thw Walking Dead</h2>
-                                <p>AMC</p>
-                                <div className="progress"></div>
-                            </div>
-                        <h2 className="percentage">60%</h2>
-                    </div>
+                    {all}
                 </div>
            </div>
        </div>

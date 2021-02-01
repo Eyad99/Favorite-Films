@@ -32,6 +32,7 @@ class App extends Component{
         })
       })
     }
+    
     bb_api();
     bbs_api();
 
@@ -43,7 +44,7 @@ class App extends Component{
         <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/" render={()=><Main esisode={this.state.episodes} />}/>
+          <Route exact path="/Favorite-Films" render={()=><Main esisode={this.state.episodes} />}/>
           <Route  path="/characters" render={()=> <Characters user={this.state.user} />}  />
           <Route  path="/questions" component={Questions} />
           <Route  path="/contactus" component={ContactUs} />

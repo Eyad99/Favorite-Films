@@ -1,0 +1,24 @@
+[
+    {
+        "film_id" : 1,
+        "name" : "Breaking Bad",
+        "producing_company" : "AMC",
+        "percentage" : "90%",
+        "img" : "breaking-bad"
+    },
+    {
+        "film_id" : 2,
+        "name" : "The walking Dead",
+        "producing_company" : "AMC",
+        "percentage" : "90%",
+        "img" : "the-walking-dead"
+    },
+    {
+        "film_id" : 3,
+        "name" : "Prison Break",
+        "producing_company" : "AMC",
+        "percentage" : "80%",
+        "img" : "prison-break"
+    }
+
+]
