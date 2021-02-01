@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Favorite-Films/static/css/main.55cf2316.chunk.css",
-    "main.js": "/Favorite-Films/static/js/main.446dc353.chunk.js",
-    "main.js.map": "/Favorite-Films/static/js/main.446dc353.chunk.js.map",
-    "runtime-main.js": "/Favorite-Films/static/js/runtime-main.1e5ff40d.js",
-    "runtime-main.js.map": "/Favorite-Films/static/js/runtime-main.1e5ff40d.js.map",
-    "static/js/2.e796f436.chunk.js": "/Favorite-Films/static/js/2.e796f436.chunk.js",
-    "static/js/2.e796f436.chunk.js.map": "/Favorite-Films/static/js/2.e796f436.chunk.js.map",
-    "static/js/3.b7f73116.chunk.js": "/Favorite-Films/static/js/3.b7f73116.chunk.js",
-    "static/js/3.b7f73116.chunk.js.map": "/Favorite-Films/static/js/3.b7f73116.chunk.js.map",
+    "main.css": "/Favorite-Films/static/css/main.fe9b5ab7.chunk.css",
+    "main.js": "/Favorite-Films/static/js/main.1db4eb6b.chunk.js",
+    "main.js.map": "/Favorite-Films/static/js/main.1db4eb6b.chunk.js.map",
+    "runtime-main.js": "/Favorite-Films/static/js/runtime-main.9faf0a7e.js",
+    "runtime-main.js.map": "/Favorite-Films/static/js/runtime-main.9faf0a7e.js.map",
+    "static/js/2.5201c68b.chunk.js": "/Favorite-Films/static/js/2.5201c68b.chunk.js",
+    "static/js/2.5201c68b.chunk.js.map": "/Favorite-Films/static/js/2.5201c68b.chunk.js.map",
+    "static/js/3.ae388f07.chunk.js": "/Favorite-Films/static/js/3.ae388f07.chunk.js",
+    "static/js/3.ae388f07.chunk.js.map": "/Favorite-Films/static/js/3.ae388f07.chunk.js.map",
     "index.html": "/Favorite-Films/index.html",
-    "static/css/main.55cf2316.chunk.css.map": "/Favorite-Films/static/css/main.55cf2316.chunk.css.map",
-    "static/js/2.e796f436.chunk.js.LICENSE.txt": "/Favorite-Films/static/js/2.e796f436.chunk.js.LICENSE.txt",
+    "static/css/main.fe9b5ab7.chunk.css.map": "/Favorite-Films/static/css/main.fe9b5ab7.chunk.css.map",
+    "static/js/2.5201c68b.chunk.js.LICENSE.txt": "/Favorite-Films/static/js/2.5201c68b.chunk.js.LICENSE.txt",
     "static/media/contact_us.b277049d.svg": "/Favorite-Films/static/media/contact_us.b277049d.svg",
     "static/media/eyad.43d6b938.jpg": "/Favorite-Films/static/media/eyad.43d6b938.jpg",
     "static/media/twd.c9bf142f.png": "/Favorite-Films/static/media/twd.c9bf142f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e5ff40d.js",
-    "static/js/2.e796f436.chunk.js",
-    "static/css/main.55cf2316.chunk.css",
-    "static/js/main.446dc353.chunk.js"
+    "static/js/runtime-main.9faf0a7e.js",
+    "static/js/2.5201c68b.chunk.js",
+    "static/css/main.fe9b5ab7.chunk.css",
+    "static/js/main.1db4eb6b.chunk.js"
   ]
 }
