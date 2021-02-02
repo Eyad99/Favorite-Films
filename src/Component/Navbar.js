@@ -25,6 +25,9 @@ const Navbar = ()=>{
                     <Link className="nav-link" to="/questions">Question</Link>
                 </li>
                 <li className="nav-item">
+                    <Link className="nav-link" to="/Paginate">Paginate</Link>
+                </li>
+                <li className="nav-item">
                     <Link className="nav-link" to="/contactus">Contact Us</Link>
                 </li>
             </ul>

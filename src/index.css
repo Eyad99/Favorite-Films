@@ -1,10 +1,12 @@
+:root{
+    --mainColor : #1687a7;
+}
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 body{
-    color: #333;
     font-size: 18px;
     background-color: #f6f5f5;
     font-family: 'Potta One', cursive;
@@ -16,4 +18,7 @@ body{
 .row{
     margin-right: 0px !important;
     margin-left: 0px !important;
+}
+.mainColor{
+    color: var(--mainColor);
 }

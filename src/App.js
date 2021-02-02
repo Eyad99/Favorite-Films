@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import Navbar from './Component/Navbar';
 import Main from './Component/Main/main';
+import Paginate from './Component/Paginate/paginate'
 import Characters from './Component/Character/character';
 import Questions from './Component/Question/question';
 import ContactUs from './Component/ContactUs/contactus';
@@ -47,9 +48,9 @@ class App extends Component{
           <Route exact path="/Favorite-Films" render={()=><Main esisode={this.state.episodes} />}/>
           <Route  path="/characters" render={()=> <Characters user={this.state.user} />}  />
           <Route  path="/questions" component={Questions} />
-          <Route  path="/contactus" component={ContactUs} />
+          <Route  path="/contactus" component={ContactUs} />        
+          <Route  path="/Paginate" component={Paginate} />
         </Switch>
-        
         </BrowserRouter> 
       </div>
     )

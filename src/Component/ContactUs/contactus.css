@@ -1,0 +1,9 @@
+.send{
+    border: 1px solid #1687a7;
+    color : #1687a7
+}
+.send:hover{
+    background-color: #1687a7;
+    color: #fff;
+    transition: .4s;
+}
