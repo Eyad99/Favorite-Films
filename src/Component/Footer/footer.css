@@ -1,0 +1,14 @@
+.col span{
+    color: #a2c1d9;
+}
+.col i{
+    color: #a2c1d9;
+}
+.col span:hover{
+    color: #276678;
+    transition: .5s;
+}
+.col i:hover{
+    color: #276678;
+    transition: .5s;
+}

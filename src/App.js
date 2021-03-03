@@ -6,6 +6,7 @@ import Paginate from './Component/Paginate/paginate'
 import Characters from './Component/Character/character';
 import Questions from './Component/Question/question';
 import ContactUs from './Component/ContactUs/contactus';
+import Footer from './Component/Footer/footer';
 import { Route,BrowserRouter,Switch } from "react-router-dom";
 
 
@@ -51,6 +52,7 @@ class App extends Component{
           <Route  path="/contactus" component={ContactUs} />        
           <Route  path="/Paginate" component={Paginate} />
         </Switch>
+        <Footer />
         </BrowserRouter> 
       </div>
     )

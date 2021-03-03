@@ -4,22 +4,10 @@
     align-items: center;
 }
 .films{
-    /* background: linear-gradient(
-        to right bottom,
-        rgba(255,255,255,0.8),
-        rgba(255, 255, 255, 0.3)
-      ); */
-      /* background: linear-gradient(
-        to right bottom,
-        rgba(0,0,0,0.1),
-        rgba(221, 221, 218, 0.3)
-      ); */
       background-color: rgba(211 , 224 , 234 ,.5);
       border-radius: 1rem;
       z-index: 2;
       width: 70%;
-      /* background: linear-gradient(to right top, , #6cdbeb); */
-
 }
 .dashboard-name{
     flex: 1;
@@ -73,11 +61,6 @@
 .circle1,
 .circle2 {
   background: white;
-  /* background: linear-gradient(
-    to right bottom,
-    rgba(0,0,0,.1),
-      rgba(255, 255, 255, 0.3)
-  );*/
   background-color: #276678;
   height: 20rem; 
   width: 20rem;
@@ -97,6 +80,11 @@
 }
 .film{
   margin: 5rem;
+}
+@media (max-width:600px){
+  .film{
+    margin: 1rem;
+  }
 }
 .fav-film{
   margin: 20px 0px 20px 0px;

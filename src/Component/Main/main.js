@@ -10,9 +10,12 @@ import dd from '../../data.json'
 import { get } from 'jquery';
 // import BB from './images/bb.png';
 // import PB from './images/pb.png';
+import { useTranslation } from "react-i18next";
 
 
 const Main =()=>{
+    const { t } = useTranslation();
+
     const [data]=useState([
         {
             "film_id" : 1,
@@ -79,13 +82,11 @@ const Main =()=>{
                         <h2>Library</h2>
                     </div>
                 </div>
-                <div className="">
-                    sds
-                </div>
+            
             </div>
            <div className="col col-lg-12 col-md-12 film">
                 <div className="top-film">
-                    <h4>Top Films</h4>
+                    <h4>{t("top_films")}</h4>
                     <input type="text" />
                 </div>
                 <div className="fav-film">

@@ -22,3 +22,6 @@ body{
 .mainColor{
     color: var(--mainColor);
 }
+.cursor{
+    cursor: pointer;
+}
